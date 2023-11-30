@@ -4,7 +4,7 @@ import React from 'react';
 // import Effect from './components/useEffectHook'
 // import Fragment from './components/reactFragment'
 // import Component from './components/classComponent'
-// import List from './components/List'
+// import List from './components/List/Number'
 // import Array from './components/destructuringArr'
 // import FunctionC from './components/functionComponent' (not working)
 // import propsExample from './components/Props'
@@ -14,8 +14,11 @@ import React from 'react';
 // import LayoutEffect from './components/useLayoutEffect'
 // import UseMemo from './components/useMemo'
 // import ContextProvider from './components/ContextProvider'
-import Pure from './components/Pure_Component'
-// import Buttons from './components/State_Hooks/ColorBtns'
+// import Pure from './components/Pure_Component'
+// import Counter from './components/State_Hook/Counter' (not working)
+// import ColorBtns from './components/State_Hook/ColorBtns';
+// import Mounting from './components/Class_Component/Mounting'
+import Updating from './components/Class_Component/Updating';
 function App() {
   return (
     // <div>App</div>
@@ -33,10 +36,13 @@ function App() {
       {/* <Functionprops /> */}
       {/* <SampleComponent /> */}
       {/* <LayoutEffect /> */}
-      <Pure />
+      {/* <Pure /> */}
       {/* <UseMemo /> */}
       {/* <ContextProvider /> */}
-      {/* <Buttons /> */}
+      {/* <ColorBtns /> */}
+      {/* <Counter /> */}
+      {/* <Mounting /> */}
+      <Updating />
     </>
   )
 }

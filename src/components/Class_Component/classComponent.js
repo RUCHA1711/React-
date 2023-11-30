@@ -28,3 +28,5 @@ class Car extends Component {
 }
 
 export default Car
+
+// https://blog.logrocket.com/react-lifecycle-methods-tutorial-examples/
