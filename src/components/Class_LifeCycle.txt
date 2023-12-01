@@ -28,6 +28,8 @@ If returned false then the subsequent steps of rendering will not be carried out
 
 7. getSnapshotBeforeUpdate(): The getSnapshotBeforeUpdate() method is invoked just before the DOM is being rendered. 
 It is used to store the previous values of the state after the DOM is updated.
+Note: If the getSnapshotBeforeUpdate() method is present, you should also include the componentDidUpdate() method,
+otherwise you will get an error.
 
 8. componentDidUpdate(): The componentDidUpdate method is called after the component is updated in the DOM.
 

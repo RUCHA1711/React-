@@ -1,7 +1,7 @@
 import React from 'react';
 // import State from './components/useStateHook';
 // import CallBack from './components/useCallBackHook';
-// import Effect from './components/useEffectHook'
+// import Example from './components/Effect_Hook/Example'
 // import Fragment from './components/reactFragment'
 // import Component from './components/classComponent'
 // import List from './components/List/Number'
@@ -18,14 +18,20 @@ import React from 'react';
 // import Counter from './components/State_Hook/Counter' (not working)
 // import ColorBtns from './components/State_Hook/ColorBtns';
 // import Mounting from './components/Class_Component/Mounting'
-import Updating from './components/Class_Component/Updating';
+// import Updating from './components/Class_Component/Updating';
+// import Unmounting from './components/Class_Component/Unmounting';
+// import Ternary from './components/Conditional_Rendering/Ternany_op'
+// import And from './components/Conditional_Rendering/And_op'
+// import Timer from './components/Effect_Hook/Timer'
+// import EffectCounter from './components/Effect_Hook/Counter'
+import Text from './components/Effect_Hook/Text'
 function App() {
   return (
     // <div>App</div>
     <>
       {/* <State /> */}
       {/* <CallBack /> */}
-      {/* <Effect /> */}
+      {/* <Example /> */}
       {/* <Fragment /> */}
       {/* <Component /> */}
       {/* <List /> */}
@@ -42,7 +48,13 @@ function App() {
       {/* <ColorBtns /> */}
       {/* <Counter /> */}
       {/* <Mounting /> */}
-      <Updating />
+      {/* <Updating /> */}
+      {/* <Unmounting /> */}
+      {/* <Ternary /> */}
+      {/* <And /> */}
+      {/* <Timer /> */}
+      {/* <EffectCounter /> */}
+      <Text />
     </>
   )
 }

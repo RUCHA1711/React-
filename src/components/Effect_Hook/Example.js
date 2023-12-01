@@ -12,7 +12,7 @@ function Example() {
     useEffect(() => {
         // Update the document title using the browser API
         console.log('first', `You clicked ${count} times`);
-    }, [count]);
+    });
     useEffect(() => {
         // Update the document title using the browser API
         console.log('second', `You clicked ${count1} times`);
