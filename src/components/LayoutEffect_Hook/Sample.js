@@ -3,11 +3,15 @@ const Sample = () => {
     const [value, setValue] = useState("GFG");
 
     useLayoutEffect(() => {
-        // console.log("UseLayoutEffect is called with the value of ", value);
+        console.log("UseLayoutEffect is called with the value of ", value);
+        setTimeout(() => {
+            console.log('value', value)
+            setValue("GeeksForGeeks");
+        }, 2000);
     }, [value]);
-    setTimeout(() => {
-        setValue("GeeksForGeeks");
-    }, 2000);
+    // setTimeout(() => {
+    //     setValue("GeeksForGeeks");
+    // }, 2000);
 
     return (
         <div

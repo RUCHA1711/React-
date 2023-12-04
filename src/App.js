@@ -1,4 +1,7 @@
 import React from 'react';
+// import Sample from './components/LayoutEffect_Hook/Sample';
+// import Example from './components/List/Example';
+import MyFunctionalComponent from './components/Ref Hook/Ref';
 // import State from './components/useStateHook';
 // import CallBack from './components/useCallBackHook';
 // import Example from './components/Effect_Hook/Example'
@@ -24,7 +27,10 @@ import React from 'react';
 // import And from './components/Conditional_Rendering/And_op'
 // import Timer from './components/Effect_Hook/Timer'
 // import EffectCounter from './components/Effect_Hook/Counter'
-import Text from './components/Effect_Hook/Text'
+// import Counter from './components/Effect_Hook/Counter'
+// import Text from './components/Effect_Hook/Text'
+// import Sample from './components/LayoutEffect_Hook/'
+import Data from './components/Map_Method/Data'
 function App() {
   return (
     // <div>App</div>
@@ -54,7 +60,12 @@ function App() {
       {/* <And /> */}
       {/* <Timer /> */}
       {/* <EffectCounter /> */}
-      <Text />
+      {/* <Text /> */}
+      {/* <Counter/> */}
+      {/* <Sample /> */}
+      {/* <Example /> */}
+      {/* <MyFunctionalComponent /> */}
+      <Data />
     </>
   )
 }

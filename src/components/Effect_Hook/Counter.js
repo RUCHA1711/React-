@@ -8,12 +8,21 @@ function HookCounterOne() {
         document.title = `You clicked ${count} times`;
     }, [count]);
 
+    function addNumber() {
+        console.log("This is log");
+        
+        setCount((count) => count + 1)  
+        setCount((count) => count + 1)  
+        setCount((count) => count + 1)  
+        setCount((count) => count + 1)  
+        console.log("This is log");
+    }
     return (
         <div>
-            <button onClick={() => setCount((prevCount) => prevCount + 1)}>
+            <button onClick={addNumber}>
                 Click {count} times{" "}
             </button>
         </div>
     );
 }
-export default HookCounterOne;
+export default React.Memo(HookCounterOne)

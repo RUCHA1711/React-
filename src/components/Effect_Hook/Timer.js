@@ -10,9 +10,12 @@ function Timer() {
             setCount((count) => count + 1);
         }, 1000);
     }, [count]);
-    return <h1>I have rendered {count} times!</h1>;
+    // return <h1>I have rendered {count} times!</h1>;
+    // useEffect(() => {
+    //     console.log("Mounting...")
+    // }, [count]);
+    return (<><h1>I have rendered {count} times!</h1><button onClick={() => setCount(count+1)}>Increment</button></>);
 }
-
 // 1. An empty array (only render once)
 
 // useEffect(() => {
