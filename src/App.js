@@ -17,7 +17,7 @@ import MyFunctionalComponent from './components/Ref Hook/Ref';
 // import LayoutEffect from './components/useLayoutEffect'
 // import UseMemo from './components/useMemo'
 // import ContextProvider from './components/ContextProvider'
-// import Pure from './components/Pure_Component'
+import Pure from './components/Pure_Component/ClassComponent'
 // import Counter from './components/State_Hook/Counter' (not working)
 // import ColorBtns from './components/State_Hook/ColorBtns';
 // import Mounting from './components/Class_Component/Mounting'
@@ -31,6 +31,12 @@ import MyFunctionalComponent from './components/Ref Hook/Ref';
 // import Text from './components/Effect_Hook/Text'
 // import Sample from './components/LayoutEffect_Hook/'
 import Data from './components/Map_Method/Data'
+// import Text from './components/Effect_Hook/Text'
+// import Todos from './components/CallBack_Hook/Todos'
+// import Example from './components/React_Memo/Example';
+// import HookDemo from './components/Hook_demo/Parent'
+// import ParentComponent from './components/CallBack_Hook/Parentcomponent';
+import ClassCounter from './components/Class_Component/Counter'
 function App() {
   return (
     // <div>App</div>
@@ -66,6 +72,11 @@ function App() {
       {/* <Example /> */}
       {/* <MyFunctionalComponent /> */}
       <Data />
+      {/* <Todos /> */}
+      {/* <Example /> */}
+      {/* <HookDemo /> */}
+      {/* <ParentComponent /> */}
+      <ClassCounter />
     </>
   )
 }
