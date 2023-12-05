@@ -1,7 +1,7 @@
 import React from 'react';
 // import Sample from './components/LayoutEffect_Hook/Sample';
 // import Example from './components/List/Example';
-import MyFunctionalComponent from './components/Ref Hook/Ref';
+// import MyFunctionalComponent from './components/Ref Hook/Ref';
 // import State from './components/useStateHook';
 // import CallBack from './components/useCallBackHook';
 // import Example from './components/Effect_Hook/Example'
@@ -17,7 +17,7 @@ import MyFunctionalComponent from './components/Ref Hook/Ref';
 // import LayoutEffect from './components/useLayoutEffect'
 // import UseMemo from './components/useMemo'
 // import ContextProvider from './components/ContextProvider'
-import Pure from './components/Pure_Component/ClassComponent'
+// import Pure from './components/Pure_Component/ClassComponent'
 // import Counter from './components/State_Hook/Counter' (not working)
 // import ColorBtns from './components/State_Hook/ColorBtns';
 // import Mounting from './components/Class_Component/Mounting'
@@ -30,13 +30,15 @@ import Pure from './components/Pure_Component/ClassComponent'
 // import Counter from './components/Effect_Hook/Counter'
 // import Text from './components/Effect_Hook/Text'
 // import Sample from './components/LayoutEffect_Hook/'
-import Data from './components/Map_Method/Data'
+// import Data from './components/Map_Method/Data'
 // import Text from './components/Effect_Hook/Text'
 // import Todos from './components/CallBack_Hook/Todos'
 // import Example from './components/React_Memo/Example';
 // import HookDemo from './components/Hook_demo/Parent'
 // import ParentComponent from './components/CallBack_Hook/Parentcomponent';
-import ClassCounter from './components/Class_Component/Counter'
+// import ClassCounter from './components/Class_Component/Counter'
+// import PropsDrilling from './components/Context_Provider/Example'
+import WithLogger from './components/HOC/WithLogger';
 function App() {
   return (
     // <div>App</div>
@@ -71,12 +73,14 @@ function App() {
       {/* <Sample /> */}
       {/* <Example /> */}
       {/* <MyFunctionalComponent /> */}
-      <Data />
+      {/* <Data /> */}
       {/* <Todos /> */}
       {/* <Example /> */}
       {/* <HookDemo /> */}
       {/* <ParentComponent /> */}
-      <ClassCounter />
+      {/* <ClassCounter /> */}
+      {/* <PropsDrilling /> */}
+      <WithLogger />
     </>
   )
 }
