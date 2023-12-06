@@ -38,7 +38,8 @@ import React from 'react';
 // import ParentComponent from './components/CallBack_Hook/Parentcomponent';
 // import ClassCounter from './components/Class_Component/Counter'
 // import PropsDrilling from './components/Context_Provider/Example'
-import WithLogger from './components/HOC/WithLogger';
+// import WithLogger from './components/HOC/WithLogger';
+import RouterExample from './components/React_Router/index'
 function App() {
   return (
     // <div>App</div>
@@ -80,7 +81,8 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <ClassCounter /> */}
       {/* <PropsDrilling /> */}
-      <WithLogger />
+      {/* <WithLogger /> */}
+      <RouterExample />
     </>
   )
 }
