@@ -39,7 +39,7 @@ import React from 'react';
 // import ClassCounter from './components/Class_Component/Counter'
 // import PropsDrilling from './components/Context_Provider/Example'
 // import WithLogger from './components/HOC/WithLogger';
-import RouterExample from './components/React_Router/index'
+import RouterExample from './components/React_Router/RouterExample'
 function App() {
   return (
     // <div>App</div>
